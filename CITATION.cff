@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you reference the Five Laws of AI Governance, please cite it as below."
+type: dataset
+title: "The Five Laws of AI Governance"
+abstract: >-
+  A structural framework establishing the minimum conditions required to
+  independently govern an autonomous system: five laws that separate the roles
+  of judge, witness, owner, and executioner from the governed system, and bind
+  governance before the act rather than after. A measurement standard for
+  conformance to an authorization.
+authors:
+  - family-names: Genece
+    given-names: Pharns
+    orcid: "https://orcid.org/0009-0009-0791-4124"
+version: "1.0.0"
+date-released: "2026-07-08"
+license: "CC-BY-4.0"
+url: "https://github.com/Pharns/The-Five-Laws-of-AI-Governance"
+keywords:
+  - AI governance
+  - autonomous systems
+  - runtime conformance
+  - AI accountability
+  - independent measurement
+  - AI safety standards
+# doi: "10.5281/zenodo.0000000"                          # ← add AFTER Zenodo archives v1.0.0
