@@ -30,7 +30,7 @@ The Laws are the **memorable top** of a stack that is **already cataloged at the
 
 The alignment maps cleanly to Laws **I, IV, and V**. But the controls for Law **II** (binding at dispatch) and Law **III** (external witness) had to be mapped to NIST **process** subcategories — because **NIST AI RMF has no native runtime-enforcement or external-attestation subcategory.**
 
-That is not a weakness in the Laws. It is the **white space** the standard occupies. Existing frameworks describe *what should be true*; they leave *runtime enforcement* and *external attestation* to prose. The weak fits for Laws II and III are the evidence that a runtime-conformance standard needs to exist.
+That is not a weakness in the Laws. It is the **white space the standard leaves open** — the gap is NIST's, not the Laws'. Existing frameworks describe *what should be true*; they leave *runtime enforcement* and *external attestation* to prose. The absence of a native NIST subcategory for Laws II and III is the evidence that a runtime-conformance standard needs to exist, and that the field is ahead of the framework.
 
 ---
 
