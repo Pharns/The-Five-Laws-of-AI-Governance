@@ -8,7 +8,7 @@ All notable changes to the canonical doctrine are recorded here. This standard f
 
 ---
 
-## [1.0.0] — 2026-XX-XX
+## [1.0.0] — 2026-07-08
 
 Initial canonical publication.
 
