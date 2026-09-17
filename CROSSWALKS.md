@@ -19,8 +19,8 @@ The Laws are the **memorable top** of a stack that is **already cataloged at the
 | Law | NIST AI RMF | ISO/IEC 42001:2023 | Fit |
 |---|---|---|---|
 | **I — Independent Measure** | MEASURE-1.1 (metric selection); MEASURE-2.13 (TEVV) | A.5.2 (impact assessment process) | Strong |
-| **II — Binding at Dispatch** | *No native subcategory* — maps to process subcategories (GOVERN-1.1, MANAGE-1.x) | A.6.2.6 (operation & monitoring) — closest | **Weak in NIST — the white space** |
-| **III — External Witness** | MEASURE-2.13 (TEVV) + audit subcategories | **A.6.2.8 (recording of event logs)** | Partial in NIST; strong on ISO A.6.2.8 |
+| **II — Binding at Dispatch** | *No native subcategory* — maps to process subcategories (GOVERN-1.1, MANAGE-1.x) | A.6.2.6 (operation & monitoring) — closest | **No native NIST subcategory — the white space** |
+| **III — External Witness** | MEASURE-2.13 (TEVV) + audit subcategories | **A.6.2.8 (recording of event logs)** | No native NIST subcategory; strong on ISO A.6.2.8 |
 | **IV — Separated Authority** | GOVERN-6.1 (third-party); GOVERN-1.1 (org policy) | A.3.2 (AI roles & responsibilities) | Strong |
 | **V — Revocable Authority** | MANAGE-2.4 (*supersede, disengage, or deactivate*); GOVERN-1.7 (safe decommission) | A.9.2 (responsible use) | Strong |
 
