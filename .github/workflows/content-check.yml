@@ -1,0 +1,44 @@
+name: Content check
+
+# READ-ONLY integrity check. Reports; never writes, tags, or releases.
+#
+# Governed by ADR-0107 (no CI automation on DOI-archived repos). This repo is
+# archived by Zenodo, and Zenodo mints a new permanent DOI version on release.
+# A workflow able to tag or release could mint a DOI as a side effect of an
+# ordinary commit, taking an irreversible act with no human at the dispatch
+# point.
+#
+# Therefore, and deliberately:
+#   - permissions are contents: read, and nothing else
+#   - there is no release, tag, publish, push, or commit step
+#   - the job's only output is a pass/fail report
+#
+# Do not add write permissions to this workflow. If a future task needs one,
+# it belongs in a separate, human-triggered workflow reviewed against ADR-0107.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Integrity
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run content check
+        run: python3 .github/scripts/content_check.py .
