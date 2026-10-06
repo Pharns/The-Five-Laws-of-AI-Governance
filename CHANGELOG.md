@@ -8,6 +8,12 @@ All notable changes to the canonical doctrine are recorded here. This standard f
 
 ---
 
+## [1.0.1] — 2026-07-09
+
+Zenodo archival release. No content change — the `v1.0.1` tag points to the same commit as `v1.0.0`.
+
+- Archived on Zenodo: version DOI `10.5281/zenodo.21271750`; concept DOI `10.5281/zenodo.21271749` (resolves to the latest version)
+
 ## [1.0.0] — 2026-07-08
 
 Initial canonical publication.
