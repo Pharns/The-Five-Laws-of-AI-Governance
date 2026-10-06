@@ -38,9 +38,15 @@ The Five Laws are the normative foundation referenced by the **AQ Score™** mea
 
 ## Citing this work
 
-This repository includes a [`CITATION.cff`](CITATION.cff) — use the **"Cite this repository"** button on GitHub. A versioned, archived citation (with DOI) is published on release.
+Cite the concept DOI — it always resolves to the latest version:
 
-> Genece, P. (2026). *The Five Laws of AI Governance.* Version 1.0.
+> Genece, P. (2026). *The Five Laws of AI Governance.* Zenodo. https://doi.org/10.5281/zenodo.21271749
+
+To pin the exact text (standards submissions, exhibits), cite the version DOI:
+
+> Genece, P. (2026). *The Five Laws of AI Governance* (v1.0.1). Zenodo. https://doi.org/10.5281/zenodo.21271750
+
+This repository also includes a [`CITATION.cff`](CITATION.cff) — use the **"Cite this repository"** button on GitHub.
 
 ## License
 
